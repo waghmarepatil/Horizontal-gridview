@@ -7,7 +7,7 @@ GridView is a two dimensional array of views which can be scrolled only in horiz
 Steps: 
 
 1. Declare gridview in activity_main.xml file
-2. Add Following code in Mainactivity.java file
-3. Create another layout file custom_country_info.xml
+2. Add code in Mainactivity.java file
+3. Create another layout file custom_truck_view.xml
 
 
