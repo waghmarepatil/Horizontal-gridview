@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         truckImage.add(R.mipmap.bulkar);
         truckImage.add(R.mipmap.bulkar);
 
-        customizeCountryView();
+        customizeTruckView();
 
         truckListView.setAdapter(new CustomAdapter());
     }
@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Function to manipulate size of each item in grid view
      */
-    private void customizeCountryView() {
+    private void customizeTruckView() {
         truckListView.setNumColumns(truckNo.size());
 
         //manipulate the width of each item in grid view / truck list
@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     * Class used to customize country
+     * Class used to customize TruckView
      */
     private class CustomAdapter extends BaseAdapter {
         @Override
