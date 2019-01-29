@@ -102,11 +102,11 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            View customCountryView = getLayoutInflater().inflate(R.layout.custom_truck_view,null);
-            TextView txtTruckNo = (TextView)customCountryView.findViewById(R.id.txtTruckNo);
+            View customTruckView = getLayoutInflater().inflate(R.layout.custom_truck_view,null);
+            TextView txtTruckNo = (TextView)customTruckView.findViewById(R.id.txtTruckNo);
             txtTruckNo.setText(truckNo.get(position));
             txtTruckNo.setCompoundDrawablesWithIntrinsicBounds(0, truckImage.get(position),0,0);
-            return customCountryView;
+            return customTruckView;
         }
     }
 }
